@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER Page</title>
+	<link rel="stylesheet" type="text/css" href="login_register.css">
+	<link rel = "icon" href = "car-search.png" type = "image/x-icon">
+	<style type="text/css">
+			h1
+			{
+				font-size: 3vw;
+			}
+	</style>
+</head>
+<body>
+	<div id="outer">
+		<div id="img_section">
+			<div class="slideshow-container" style="float: left">
+				<div class="mySlides">
+				<a href="home_page_html.html">
+					<img class="slide_img" src="home_background.jpg">
+				</a>				
+				</div>
+				<div class="mySlides">
+				  <a href="home_page_html.html">
+				  	<img class="slide_img" src="img1.jpg">
+				  </a>
+				</div>
+
+				<div class="mySlides">
+				  <a href="home_page_html.html">
+				  	<img class="slide_img" src="img12.jpg">
+				  </a>
+				</div>
+			</div>
+		</div>
+			
+		<div id="login_section">
+				<form action="login.html">
+					<marquee><b>WELCOME TO carbecho.COM</b></marquee><br>
+					<center><h1>REGISTER</h1></center>
+		  			<label for="name" id="heading">Full Name:</label><br><br>
+		  			<input type="text" id="name" name="name" placeholder="" required=""><br><br>
+		  			<label for="email" id="heading">Your Email Id:</label><br><br>
+		  			<input type="email" id="email" name="email" placeholder="" required=""><br><br>
+		  			<label for="phone" id="heading">Contact Number:</label><br><br>
+		  			<input type="number" id="phone" name="phone" placeholder="" required=""><br><br>
+		  			<label for="pass" id="heading">Set Password:</label><br><br>
+		  			<input type="password" id="pass" name="pass" placeholder="" required="">
+		  			<br><br><br>
+		  			<input type="submit" id="submit_button" name="LOGIN">
+		  			<a href="home_page_html.html"><input type="button" value="SKIP" name="Skip"></a>
+		  			</form>			
+		</div>
+	</div><br>
+	<marquee id="footer_line">Hello, how you doing?, Are you looking for new car, Or do you want to sell your car, Or you want to buy second hand car, Then definately you are at correct place.</marquee>
+</body>
+</html>
+
+
+
+<!-- javascript-->
+			<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";  
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}    
+					  slides[slideIndex-1].style.display = "block";  
+					  setTimeout(showSlides, 4000); // Change image every 4 seconds
+				}
+			</script>

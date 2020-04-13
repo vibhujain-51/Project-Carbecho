@@ -1,0 +1,36 @@
+body{
+    text-align: justify;        
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(C:/Users/vibhu/Desktop/project/one.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    background: bisque; 
+}
+
+p{
+    margin-left:20px;
+    margin-right:20px; 
+    font-size: 18px;
+}
+
+h3{
+    margin-left:20px;
+    font-size: 21px;
+}
+
+h1{
+    font-size: 32px;
+     text-align: center;
+}
+
+li{
+    font-size: 18px;
+}
+

@@ -1,0 +1,58 @@
+body{
+    text-align: justify;        
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url(C:/Users/vibhu/Desktop/project/three.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1366px 768px;
+}
+
+
+
+
+#wrapper3{
+    width: 1000px;
+    margin: 0 auto;
+    background: bisque;
+}
+
+h1{
+    font-size: 32px;
+    margin-left: 20px;
+    
+}
+
+#head{
+    font-size: 32px;
+    margin-left: 20px;
+    color:white;
+    text-align: center;
+}
+
+.wordings{
+    font-size: 24px;
+    color: brown;
+    margin-left: 20px;
+}
+
+h3{
+ margin-left: 20px;
+}
+
+.word2{
+    margin-top: 10px;
+     margin-left: 20px;
+     margin-bottom: 10px;
+}
+label,select{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+
+.word3{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

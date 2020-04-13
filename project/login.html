@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="login_register.css">
+	<link rel = "icon" href = "car-search.png" type = "image/x-icon">
+</head>
+<body>
+	<div id="outer">
+		<div id="img_section">
+			<div class="slideshow-container" style="float: left">
+				<div class="mySlides">
+				<a href="home_page_html.html">
+					<img class="slide_img" src="home_background.jpg">
+				</a>				
+				</div>
+				<div class="mySlides">
+				  <a href="home_page_html.html">
+				  	<img class="slide_img" src="img1.jpg">
+				  </a>
+				</div>
+
+				<div class="mySlides">
+				  <a href="home_page_html.html">
+				  	<img class="slide_img" src="img12.jpg">
+				  </a>
+				</div>
+		</div>
+
+		</div>
+		<div id="login_section">
+				<form action="home_page_html.html">
+					<marquee><b>WELCOME TO carbecho.COM</b></marquee><br>
+					<center><h1>LOGIN</h1></center>
+		  			<label for="email" id="heading">Email:</label><br><br>
+		  			<input type="email" id="email" name="email" required=""><br><br>
+		  			<label for="pass" id="heading">Password:</label><br><br>
+		  			<input type="password" id="pass" name="pass" required=""><br><br><br>
+		  			<input type="submit" id="submit_button" name="LOGIN" required="">
+		  			<a href="register.html"><input type="button" value="REGISTER" name="Reg"></a>
+		  			<a href="home_page_html.html"><input type="button" value="SKIP" name="Skip"></a>
+				</form>			
+		</div>
+	</div><br>
+	<marquee id="footer_line">Hello, how you doing?, Are you looking for new car, Or do you want to sell your car, Or you want to buy second hand car, Then definately you are at correct place.</marquee>
+</body>
+</html>
+
+<!-- javascript-->
+			<script>
+				var slideIndex = 0;
+				showSlides();
+
+				function showSlides() {
+					  var i;
+					  var slides = document.getElementsByClassName("mySlides");
+					  for (i = 0; i < slides.length; i++) {
+					    slides[i].style.display = "none";  
+					  }
+					  slideIndex++;
+					  if (slideIndex > slides.length) {slideIndex = 1}    
+					  slides[slideIndex-1].style.display = "block";  
+					  setTimeout(showSlides, 4000); // Change image every 4 seconds
+				}
+			</script>

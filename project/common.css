@@ -1,0 +1,89 @@
+#common
+{
+  background-color: black;display: flex;justify-content: center;
+}
+#search_box_input
+{
+  font-size: 1.5vw;
+  margin-right: 20px;
+}
+
+
+#nav_img
+{
+	width: 60px;
+	height: 60px;
+	float: left;	
+	margin right: 100px;
+	background-color: #CCD8DA;
+	position: sticky;
+	height: auto;
+}
+.search_box
+{
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 1vw;
+	height: 1vh;
+	margin-top: 10px;
+}
+
+#checkkre a:link
+		{
+  			background-color: black;
+  			font-weight: bold;
+  			font-size: 2vw;
+  			font-style:  serif;
+  			color: #EC860C;
+  			padding: 15px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			border-left: solid 5px white;
+		}
+
+ #checkkre a:visited 
+ 		{
+ 			background-color: black;
+  			font-size: 2vw;
+  			font-style:  serif;
+  			color: #53F382;
+  			padding: 15px 25px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;	
+  			z-index: -1;
+                border-left: solid 5px white;
+ 		}
+
+#checkkre a:hover, #checkkre a:active 
+		{
+ 			 font-size: 2.5vw;
+ 			 z-index: -1;
+		}
+
+#overview
+{
+  display: flex;
+}
+#link
+{
+  width: 30%;
+  float: left;
+  background-color: #79CF9D;
+  
+}
+#reach
+{
+  width: 70%;
+  background-color: #C2C2C2;
+  float: left;
+  font-size: 2vw;
+}
+.implink
+{
+  color: black;
+  font-size: 2vw;
+  text-decoration: none;
+}
